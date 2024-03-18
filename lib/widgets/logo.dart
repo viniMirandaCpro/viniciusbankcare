@@ -1,4 +1,3 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
 
 class Logo extends StatelessWidget {
@@ -13,7 +12,7 @@ class Logo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      //logo da bankcare ja com espaçamento
+      //logo da bankcare com espacamento vertical a ser definido
       padding: EdgeInsets.symmetric(vertical: paddingv),
       child: Image.asset('assets/bankcarelogo.png'),
     );

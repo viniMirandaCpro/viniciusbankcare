@@ -11,14 +11,18 @@ class TextsRecovery extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Text(
-            'Redefinição de senha',
-            style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+            'Esqueceu sua senha?',
+            textAlign: TextAlign.center,
+            style: TextStyle(fontSize: 30, fontWeight: FontWeight.w500),
           ),
           SizedBox(
             height: 12,
           ),
           Text(
-              'Digite seu e-mail no campo abaixo e lhe enviaremos uma nova senha.'),
+            'Digite seu e-mail no campo abaixo e lhe enviaremos uma nova senha.',
+            textAlign: TextAlign.center,
+            style: TextStyle(fontSize: 16),
+          ),
         ],
       ),
     );
