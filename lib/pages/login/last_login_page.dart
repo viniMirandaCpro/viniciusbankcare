@@ -18,12 +18,12 @@ class LastLoginPage extends StatelessWidget {
               padding: const EdgeInsets.symmetric(horizontal: 16.0),
               child: Column(
                 children: [
-                  TxtFormCustom(
+                  const TxtFormCustom(
                     label: 'E-mail',
                     obscureText: false,
                   ),
                   const SizedBox(height: 20),
-                  TxtFormCustom(
+                  const TxtFormCustom(
                     label: 'Senha',
                     obscureText: true,
                   ),
@@ -35,7 +35,7 @@ class LastLoginPage extends StatelessWidget {
                           onPressed: () {
                             Navigator.of(context).pushNamed('/recovery');
                           },
-                          child: Text('Esqueceu sua senha?')),
+                          child: const Text('Esqueceu sua senha?')),
                       ElevatedButton(
                         onPressed: () {},
                         style: ElevatedButton.styleFrom(

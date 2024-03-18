@@ -7,7 +7,7 @@ class VoltarButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return TextButton(
       onPressed: () => Navigator.of(context).pop(),
-      child: Text(
+      child: const Text(
         'Voltar',
         style: TextStyle(
             fontWeight: FontWeight.bold, decoration: TextDecoration.underline),

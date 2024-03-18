@@ -8,12 +8,12 @@ class RegisterButton extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Text('Não tem uma conta?'),
+        const Text('Não tem uma conta?'),
         TextButton(
           onPressed: () {
             Navigator.of(context).pushNamed('/register');
           },
-          child: Text('Cadastre-se'),
+          child: const Text('Cadastre-se'),
         ),
       ],
     );

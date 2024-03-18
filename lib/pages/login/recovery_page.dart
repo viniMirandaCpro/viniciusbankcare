@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:teste_egberto/widgets/logo.dart';
 import 'package:teste_egberto/widgets/logo_pequena.dart';
 import 'package:teste_egberto/widgets/recuperar_button.dart';
 import 'package:teste_egberto/widgets/texts_recovery.dart';

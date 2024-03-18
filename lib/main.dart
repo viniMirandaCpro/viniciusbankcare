@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:teste_egberto/login/last_login_page.dart';
-import 'package:teste_egberto/login/login_page.dart';
-import 'package:teste_egberto/login/recovery_page.dart';
-import 'package:teste_egberto/login/register_page.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:teste_egberto/pages/login/login_page.dart';
+import 'package:teste_egberto/pages/login/recovery_page.dart';
+import 'package:teste_egberto/pages/login/register_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData.dark().copyWith(
+        textTheme: GoogleFonts.mandaliTextTheme(Typography.whiteCupertino),
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
             backgroundColor: const Color(0xffd3ae74),

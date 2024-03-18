@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:teste_egberto/widgets/cadastro_button.dart';
 import 'package:teste_egberto/widgets/logo.dart';
-import 'package:teste_egberto/widgets/logo_pequena.dart';
 import 'package:teste_egberto/widgets/txt_form_custom.dart';
 import 'package:teste_egberto/widgets/voltar_button.dart';
 

@@ -6,7 +6,7 @@ class LogoPequena extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.only(top: 40, left: 40, right: 40),
+      padding: const EdgeInsets.only(top: 40, left: 40, right: 40),
       child: SizedBox(
         width: 400,
         height: 200,
