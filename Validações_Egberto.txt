@@ -1,0 +1,35 @@
+Olá, este arquivo tem por objetivo informar a versão da aplicação e informar os ajustes que são necessários para tornar a aplicação performática
+
+
+
+
+1- Existem alguns arquivos que possuem importação que não estão sendo usadas, alocando assim memória do dispositivo desnecessáriamente
+
+
+lib/main.dart
+lib/login/recovery_page.dart
+lib/login/register_page.dart
+
+
+2- Estabelecer alguns Widgets como constantes, evita que o Flutter rebuild o widget em questão, percebi esse problema em todos os arquivos.
+
+3- Leve em consideração que o usuário que for ler seu código sempre será um Junior, então você precisa documentar e/ou comentar o código explicando o que faz cada tarefa
+Ex: Aqui inicia o looping de verificação de senha.
+Ex²: Após o looping é efetuado uma chamada na função X que está instanciado do objeto Y
+
+3- Ao efetuar o COMMIT, tenta utilizar o padrão de semmantic do github
+https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716
+
+
+4- Tentar estudar uma Arquitetura de Desenvolvimento chamado MVC, podendo ser criado mais pastas em seu agrado
+Sugestão: 
+    Model
+    View
+    Controler
+    Component
+    Utils
+    Services
+    Factories
+
+5- É uma boa prática usar terminologia em inglês, nunca se sabe quem terá acesso ao seu código, é uma boa prática de CleanCode sempre nomear variáveis, funções e arquivos em ingles, com o que ele faz
+    a. Se você quiser uma variavel que irá receber o nome de uma pessoa utilize o termo: "String name = 'Fulano de Tal';"
